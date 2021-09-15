@@ -14,7 +14,7 @@ public class Task2FileReader {
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
             String line = br.readLine();
             while (line != null) {
-                data = line.split(",");
+                data = line.split(", ");
                 dataList.add(new Data(Integer.parseInt(data[0]), data[1]));
                 line = br.readLine();
             }
