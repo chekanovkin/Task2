@@ -1,3 +1,5 @@
+package data;
+
 public class JoinedData {
     private Integer id;
     private String valueA;

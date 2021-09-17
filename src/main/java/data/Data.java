@@ -1,3 +1,5 @@
+package data;
+
 public class Data {
     private Integer id;
     private String value;
